@@ -1,0 +1,14 @@
+class Student:
+name = "RITISHKA"
+age = 19
+
+class College(Student):
+college="KPRIT"
+BRANCH="CSM"
+
+Obj = College()
+
+print("Name:", obj.name)
+print("Age:" obj.age)
+print("College:", obj.college)
+print("Branch:", obj.branch)
