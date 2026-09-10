@@ -1,0 +1,20 @@
+class Parent:
+    def property(self):
+        print("Parent has property")
+
+
+class Child(Parent):
+    def education(self):
+        print("Child is educated")
+
+
+class GrandChild(Child):
+    def job(self):
+        print("GrandChild has a job")
+
+
+g = GrandChild()
+
+g.property()
+g.education()
+g.job()
