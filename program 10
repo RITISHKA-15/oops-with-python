@@ -1,0 +1,17 @@
+class Father:
+    def demo(self):
+        print("Parent Father")
+
+
+class Mother:
+    def display(self):
+        print("Parent Mother")
+
+
+class Child(Father, Mother):
+    pass
+
+
+c = Child()
+c.demo()
+c.display()
