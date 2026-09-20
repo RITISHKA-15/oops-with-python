@@ -1,0 +1,10 @@
+class fruits:
+    __name1 = "apple"
+    __name2 = "mango"
+    def show(self):
+      print(self.__name1)
+      print(self.__name2)
+
+    
+f = fruits()
+f.show()
