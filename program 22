@@ -1,0 +1,5 @@
+class student:
+    name = "ravi"
+
+s=student()
+print(s.name)
