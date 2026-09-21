@@ -1,0 +1,22 @@
+class vehicle:
+    def brand(self):
+        print("fortuner")
+    def model(self):
+        print("ftnr3245")
+    def display_details():
+        print("abc")
+class car(vehicle):
+    def color(self):
+        print("black")
+        
+class bike(vehicle):
+    def speed(self):
+        print("ultra")
+        
+v=vehicle()
+v.brand()
+v.model()
+c=car()
+b=bike()
+c.color()
+b.speed()
