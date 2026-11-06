@@ -1,0 +1,12 @@
+try:
+ a=int(input("Enter a="))
+ b=int(input("Enter b="))
+ result = a/b
+except ValueError:
+   print("enter number only")
+except ZeroDivisionError:
+   print("division not haven")
+else:
+   print("No exception")
+finally:
+    print("Program completed")
